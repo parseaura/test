@@ -5,13 +5,14 @@ import { useCart } from "../model/cartContext";
 import Link from "next/link";
 import calculateTotal from "../utils/calculateTotal";
 import styles from "./CartFooter.module.css";
-import { useParams } from "next/navigation";
+import { usePathname } from "next/navigation";
 import PaymentButton from "@/features/payment/ui/PaymentButton";
 
 export default function CartFooter() {
   const { state } = useCart()!;
   const total = calculateTotal(state.items);
-  const { path } = useParams();
+  const pathname = usePathname();
+  const isCartPage = pathname === "/cart";
 
   return (
     <footer className={styles.cartFooter}>
@@ -20,7 +21,7 @@ export default function CartFooter() {
         <span>Total</span>
         <span>${total}</span>
       </div>
-      {path === "cart" ? (
+      {isCartPage ? (
         <Link
           href="/payment"
           style={{ marginLeft: "auto" }}
