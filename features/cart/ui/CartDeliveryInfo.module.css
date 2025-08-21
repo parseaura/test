@@ -1,0 +1,9 @@
+.cartDelivery {
+  width: 100%;
+  background-color: var(--color-bg-yellow);
+  padding: 16px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}

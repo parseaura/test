@@ -1,0 +1,18 @@
+.itemHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.itemTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemTitle :last-child {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.itemHeader > span {
+  font-weight: bold;
+}

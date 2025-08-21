@@ -1,0 +1,43 @@
+.cartFooter {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 400px;
+  padding: 16px;
+  background: var(--color-bg);
+  box-sizing: border-box;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.footerPrice {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerPrice :first-child {
+  font-size: var(--font-size-sm);
+}
+
+.footerPrice :last-child {
+  font-weight: bold;
+}
+
+.cartFooter button {
+  font-family: var(--font-base);
+  font-size: var(--font-size-lg);
+  color: var(--color-bg);
+
+  padding: 15px 25px;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+}

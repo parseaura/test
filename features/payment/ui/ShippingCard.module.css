@@ -1,0 +1,19 @@
+.addressButton {
+  width: 100%;
+  background-color: var(--color-bg-gray);
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-base);
+
+  padding: 1em;
+
+  border-radius: var(--border-radius);
+}
+
+.addressButton span {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

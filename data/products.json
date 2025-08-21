@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "NikeCourt Lite 2",
+    "description": "Women's Hard Court Tennis Shoe",
+    "color": ["Blue"],
+    "size": ["37 EU", "38 EU", "39 EU", "40 EU"],
+    "price": 67,
+    "img": "/images/nikecourt-lite-2-womens-hard-court-tennis-shoe.png"
+  },
+  {
+    "id": 2,
+    "title": "Wilson Hammer 5.3",
+    "description": "Adult Tennis Racket",
+    "color": ["Blue", "Black", "White"],
+    "size": ["2-1/4", "2-3/4", "2-4/4"],
+    "price": 99.95,
+    "img": "/images/willson_hammer.png"
+  }
+]

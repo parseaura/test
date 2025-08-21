@@ -1,0 +1,55 @@
+.paymentCard {
+  width: 100%;
+  background-color: var(--color-bg-gray);
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: var(--font-base);
+
+  padding: 1em;
+  border-radius: var(--border-radius);
+}
+
+.paymentHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cardForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cardForm input {
+  padding: 15px;
+  border: none;
+  border-radius: var(--border-radius);
+}
+
+.inputError {
+  border-color: #e53e3e !important;
+}
+
+.error {
+  color: #e53e3e;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.expiryInput {
+  display: flex;
+  gap: 4px;
+}
+
+.expiryInputGroup {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+
+.cardForm input[name="cvv"] {
+  max-width: 50%;
+}

@@ -1,0 +1,28 @@
+.itemQty {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.itemQty div {
+  display: flex;
+  align-items: center;
+  border: var(--color-bg-gray) 2px solid;
+  border-radius: 2px;
+}
+
+.itemQty button {
+  padding: 4px 8px;
+  background-color: var(--color-bg);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: var(--font-base);
+}
+
+.itemQty span {
+  min-width: 24px;
+  text-align: center;
+  font-size: 14px;
+}

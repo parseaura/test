@@ -1,0 +1,30 @@
+.itemCard {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px;
+  background-color: var(--color-bg);
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.itemCard p {
+  width: 25%;
+}
+
+.itemBody {
+  display: flex;
+  gap: 1rem;
+}
+
+.itemVariant {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.itemVariant > div {
+  display: flex;
+  gap: 1rem;
+}
